@@ -94,9 +94,8 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
 	
-}
+
 
 form {
 	margin: 40px 0;
@@ -240,4 +239,19 @@ td, th {
 .mapa-conteudo{
 	width: 940px;
 	margin: 0 auto;
+}
+@media screen and (max-width){
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+		width: auto; 
+	}
+	h1{
+		text-align: center;
+	}
+	nav{
+		position: static;
+	}
+	.lista-beneficios, .imagem-beneficios{
+		width: 100%;
+	}
+
 }
